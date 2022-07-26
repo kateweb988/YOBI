@@ -1,0 +1,181 @@
+body
+   color: $white
+   font-weight: normal
+   font-style: normal
+   font-size: 14px
+   line-height: 18px
+   background: #000000
+   font-family: 'Museo Sans Cyrl 300'
+a
+   text-decoration: none
+   box-sizing: border-box
+   &:hover
+      color: $blue
+.container
+   padding: 0 15px
+   max-width: 1200px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px
+   @media (max-width: 991px)
+      max-width: 720px
+   @media (max-width: 767px)
+      max-width: 540px
+.btn
+   display: flex
+   align-items: center
+   justify-content: center
+   transition: all 0.5s ease
+   font-family: 'Museo Sans Cyrl 900'
+   @media (max-width: 576px)
+      height: 47px !important
+      font-size: 16px !important
+.btn1
+   width: 200px
+   height: 62px
+   border-radius: 35px
+   background-color: $blue
+   color: $white
+   font-size: 16px
+   font-weight: 400
+   border: 2px solid transparent
+   p 
+      width: 130px
+      margin: 0 auto
+      line-height: 120%
+      font-size: 16px
+      padding-left: 17px
+   &:hover
+      border: 2px solid $blue
+      background: transparent
+      color: $blue
+.btn2
+   width: 220px
+   height: 62px
+   border-radius: 35px
+   background-color: $grey
+   border: 2px solid transparent
+   font-size: 16px
+   color: $white
+   text-transform: uppercase
+   @media ( max-width: 576px )
+      width: 100%
+      height: 47px   
+      font-size: 16px
+   &:hover
+      border: 2px solid $grey
+      background: transparent
+      color: $grey
+.d-flex
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   font-size: 30px
+   margin: 0
+   line-height: 120%
+   font-weight: normal
+   max-width: 530px
+   @media ( max-width: 767px )
+      font-size: 25px
+      line-height: 30px
+   @media (max-width: 576px)
+      font-size: 16px
+      line-height: 22px
+      margin-left: 43px
+ul 
+   margin: 0
+   padding: 0
+h2 
+   margin: 0
+   font-size: 60px
+   line-height: 116%
+   font-weight: normal
+   @media ( max-width: 911px )
+      font-size: 48px
+   @media ( max-width: 576px )
+      font-size: 30px !important
+   span
+      font-family: 'Museo Sans Cyrl 900'
+.name 
+   font-size: 18px
+   color: $vio
+   text-transform: uppercase
+   letter-spacing: 1.8px
+   margin-top: 26px
+   @media (max-width: 767px)
+      text-align: right
+      margin-bottom: 4px
+      max-width: 39%
+      margin-left: auto
+   @media (max-width: 576px)
+      font-size: 12px
+      letter-spacing: 1.2px
+      margin-top: 12px
+.pagelist 
+   margin: 0
+   padding: 30px 50px
+   display: flex
+   flex-wrap: wrap
+   width: 1000px
+   margin: 0 auto
+   @media (max-width: 576px)
+      flex-direction: column
+   li
+      list-style-type: none
+      width: 25%
+      text-align: center
+      margin: 0 auto
+      a 
+         font-size: 20px
+         font-weight: bold
+         margin-bottom: 25px
+         display: block
+.pages
+   h2
+      text-align: center
+      margin-top: 50px
+      justify-content: center
+li
+   list-style-type: none
+   a
+      color: $white
+.btns
+   margin-top: 100px
+   justify-content: center
+   flex-wrap: wrap
+   a
+      margin-right: 20px
+      margin-bottom: 25px
+p
+   margin: 0
+a
+   transition: all 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: all 0.5s ease
+         
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   &:focus
+      outline: none
+input
+   box-sizing: border-box
+   &:focus-visible
+      outline: initial
+input:not([type=checkbox]):not([type=radio]),
+textarea,
+select 
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+
