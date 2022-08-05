@@ -185,7 +185,7 @@
          width: 14px
          height: 14px
       .rounds 
-         left: 16px
+         left: 23px
          top: -26px
       .header__el
          right: 0px
@@ -193,7 +193,7 @@
          width: 41%
          height: 68px
       .header__box 
-         max-width: 290px
+         max-width: 304px
          margin: 40px auto 0
       .header__logo 
          margin: 0 auto
@@ -227,11 +227,16 @@
          left: -190px
          top: -80px
          width: 147%
+   @media ( max-width: 330px )
+      .rounds
+         left: 16px
 .two-nft
    &__nums
       align-items: center
       @media ( max-width: 992px )
          margin-top: 127px
+      @media ( max-width: 576px )
+         margin-top: 93px
       span 
          color: #f0fe8f
          font-size: 317px
@@ -439,7 +444,7 @@
          bottom: 0
       .header-nft__name
          margin: 0px auto
-         font-size: 22px
+         font-size: 24px
          line-height: 124%
       .two-nft__fig1 
          right: inherit
@@ -451,7 +456,7 @@
          margin-bottom: 20px
       .two-right__name
          margin: 0 0 25px !important
-         font-size: 22px
+         font-size: 24px
          span
             font-family: 'Museo Sans Cyrl 900'
    @media (max-width: 420px)
@@ -480,6 +485,9 @@
    &__text 
       font-size: 18px
       line-height: 120%
+      @media ( max-width: 991px )
+         br 
+            display: none
       @media ( max-width: 576px )
          font-size: 16px
    &__name 
@@ -518,9 +526,12 @@
          background-color: #180853
          padding: 64px 101px 62px 63px
          min-width: 443px
+         @media ( max-width: 576px )
+            .get__text br 
+               display: block !important
       &:nth-child(2)
          background-color: #391387
-         padding: 56px 82px 62px 52px
+         padding: 56px 77px 62px 52px
          position: relative
          left: -83px
          top: -76px
@@ -529,7 +540,7 @@
             margin: -38px auto -25px
       &:nth-child(3)
          background-color: #4a229c
-         padding: 82px 73px 88px 66px
+         padding: 82px 70px 88px 66px
          min-width: 480px
          position: relative
          top: -147px
@@ -545,7 +556,7 @@
       @media ( max-width: 991px )
          padding: 60px !important
       @media ( max-width: 576px )
-         padding: 55px 40px !important
+         padding: 55px 36px !important
          width: 100%
          border-radius: 60px
          &:nth-child(3)
@@ -581,6 +592,7 @@
          top: -6px
    @media ( max-width: 576px )
       padding-bottom: 10px
+      padding-top: 20px
       .top 
          margin-left: 15px
       .rounds 
@@ -706,5 +718,7 @@
       font-family: 'Museo Sans Cyrl 900' !important
 .mob 
    display: none
-   @media (max-width: 576px)
-      display: block
+   @media (max-width: 450px)
+      display: block !important
+      &.b 
+         display: inline-block !important

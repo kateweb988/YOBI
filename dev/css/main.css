@@ -3740,6 +3740,9 @@ header {
   }
 }
 
+.eng .get__item:nth-child(2) {
+  padding: 56px 50px 62px 52px;
+}
 .eng .two-nft__text {
   line-height: 100%;
 }
@@ -3865,14 +3868,18 @@ header {
   }
 }
 @media (max-width: 576px) {
+  .eng .get {
+    padding-top: 5px;
+  }
   .eng .two-nft__text {
-    font-size: 50px;
+    font-size: 44px;
+    top: -6px;
   }
   .eng .get h2 br {
     display: none;
   }
   .eng .two-nft__content {
-    right: 22px;
+    right: 4px;
     bottom: 43px;
   }
   .eng .two-nft__info {
@@ -4209,7 +4216,7 @@ header {
     height: 14px;
   }
   .header-nft .rounds {
-    left: 16px;
+    left: 23px;
     top: -26px;
   }
   .header-nft .header__el {
@@ -4219,7 +4226,7 @@ header {
     height: 68px;
   }
   .header-nft .header__box {
-    max-width: 290px;
+    max-width: 304px;
     margin: 40px auto 0;
   }
   .header-nft .header__logo {
@@ -4264,6 +4271,11 @@ header {
     width: 147%;
   }
 }
+@media (max-width: 330px) {
+  .header-nft .rounds {
+    left: 16px;
+  }
+}
 
 .two-nft__nums {
   align-items: center;
@@ -4271,6 +4283,11 @@ header {
 @media (max-width: 992px) {
   .two-nft__nums {
     margin-top: 127px;
+  }
+}
+@media (max-width: 576px) {
+  .two-nft__nums {
+    margin-top: 93px;
   }
 }
 .two-nft__nums span {
@@ -4587,7 +4604,7 @@ header {
   }
   .two-nft .header-nft__name {
     margin: 0px auto;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 124%;
   }
   .two-nft .two-nft__fig1 {
@@ -4602,7 +4619,7 @@ header {
   }
   .two-nft .two-right__name {
     margin: 0 0 25px !important;
-    font-size: 22px;
+    font-size: 24px;
   }
   .two-nft .two-right__name span {
     font-family: "Museo Sans Cyrl 900";
@@ -4647,6 +4664,11 @@ header {
 .get__text {
   font-size: 18px;
   line-height: 120%;
+}
+@media (max-width: 991px) {
+  .get__text br {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .get__text {
@@ -4711,9 +4733,14 @@ header {
   padding: 64px 101px 62px 63px;
   min-width: 443px;
 }
+@media (max-width: 576px) {
+  .get__item:nth-child(1) .get__text br {
+    display: block !important;
+  }
+}
 .get__item:nth-child(2) {
   background-color: #391387;
-  padding: 56px 82px 62px 52px;
+  padding: 56px 77px 62px 52px;
   position: relative;
   left: -83px;
   top: -76px;
@@ -4726,7 +4753,7 @@ header {
 }
 .get__item:nth-child(3) {
   background-color: #4a229c;
-  padding: 82px 73px 88px 66px;
+  padding: 82px 70px 88px 66px;
   min-width: 480px;
   position: relative;
   top: -147px;
@@ -4753,7 +4780,7 @@ header {
 }
 @media (max-width: 576px) {
   .get__item {
-    padding: 55px 40px !important;
+    padding: 55px 36px !important;
     width: 100%;
     border-radius: 60px;
   }
@@ -4813,6 +4840,7 @@ header {
 @media (max-width: 576px) {
   .get {
     padding-bottom: 10px;
+    padding-top: 20px;
   }
   .get .top {
     margin-left: 15px;
@@ -5003,8 +5031,11 @@ header {
 .mob {
   display: none;
 }
-@media (max-width: 576px) {
+@media (max-width: 450px) {
   .mob {
-    display: block;
+    display: block !important;
+  }
+  .mob.b {
+    display: inline-block !important;
   }
 }
