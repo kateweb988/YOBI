@@ -3965,6 +3965,9 @@ header {
   font-weight: 400;
   line-height: 110%;
 }
+.header-nft__name.stroke br {
+  display: block;
+}
 .header-nft__name br {
   display: none;
 }
@@ -5029,7 +5032,7 @@ header {
 }
 
 .mob {
-  display: none;
+  display: none !important;
 }
 @media (max-width: 450px) {
   .mob {
@@ -5037,5 +5040,11 @@ header {
   }
   .mob.b {
     display: inline-block !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-nft__name br {
+    display: none !important;
   }
 }
